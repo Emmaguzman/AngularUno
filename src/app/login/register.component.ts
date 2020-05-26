@@ -5,6 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './register.component.html',
   styleUrls: ['./login.component.css'
   ]
+  
 })
 export class RegisterComponent implements OnInit {
 
