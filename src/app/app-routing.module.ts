@@ -11,14 +11,14 @@ import { RegisterComponent } from './login/register.component';
 
 
 const routes: Routes = [
-  { path:'',
-    component:PagesComponent,
-    children:[
-      {path:'progress',component:ProgressComponent},
-      {path:'dashboard',component:DashboardComponent},
-      {path:'graficas1',component:Graficas1Component},
-      {path:'',redirectTo:'/dashboard',pathMatch:'full'}
-    ]},
+  // { path:'',
+  //   component:PagesComponent,
+  //   children:[
+  //     {path:'progress',component:ProgressComponent},
+  //     {path:'dashboard',component:DashboardComponent},
+  //     {path:'graficas1',component:Graficas1Component},
+  //     {path:'',redirectTo:'/dashboard',pathMatch:'full'}
+  //   ]},
   
   {path:'login',component:LoginComponent},
   {path:'register',component:RegisterComponent},
